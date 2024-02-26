@@ -6,6 +6,9 @@
     align-items: center;
     background-color:  burlywood;
     height: 100vh;
+    h1 {
+        color: black; /* Set the text color of h1 to black */
+      }
   }
   
   .main {
