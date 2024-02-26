@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+    height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inputt {
+    width: 100%;
+    height: 30px;
+  }
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 10px;
+  }
+  .apps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 10px;
+    flex-wrap: wrap;
+  }
